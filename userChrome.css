@@ -1,0 +1,39 @@
+:root {
+  --tab-min-height: 20px !important;
+  --toolbarbutton-outer-padding: 0px !important;
+  --toolbarbutton-inner-padding: 4px !important;
+  --toolbarbutton-corner-radius: 2px !important;
+  --urlbar-icon-padding: 5px !important;
+}
+.titlebar-spacer {
+  width: 10px !important;
+}
+.tab-content {
+  padding: 0 4px;
+}
+#nav-bar {
+  height: 30px;
+}
+:not([uidensity="compact"]) #back-button > .toolbarbutton-icon {
+  height: 28px !important;
+  width: 28px !important;
+  padding: 6px !important;
+}
+:not([uidensity="compact"]) #back-button {
+  padding-block: 0px !important;
+}
+#urlbar {
+  --urlbar-height: 26px !important;
+  --url-toolbar-height: 30px !important;
+}
+#searchbar {
+  height: 26px !important;
+}
+  
+#urlbar, #searchbar {
+  min-height: 20px !important;
+}
+#urlbar-container, #search-container {
+  margin-inline: 2px !important;
+  padding-block: 0px !important;
+}
